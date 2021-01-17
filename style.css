@@ -15,3 +15,18 @@ button {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
 }
+.intro h1 span {
+  position: relative;
+}
+.intro h1 span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 20px;
+  background: url("https://i.imgur.com/bjSJhlm.png") center center repeat #87ceeb;
+  background-size: contain;
+  z-index: -1;
+}
