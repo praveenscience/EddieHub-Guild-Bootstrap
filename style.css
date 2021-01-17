@@ -1,0 +1,14 @@
+body,
+input,
+select,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0.5rem 1.25rem;
+}
