@@ -11,3 +11,7 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0.5rem 1.25rem;
 }
+.intro {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
